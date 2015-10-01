@@ -1,0 +1,16 @@
+#banner {
+    min-width: 1040px;
+    font-family: "Gotham A","Gotham B","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1em;
+    text-align: center;
+    color: #111;
+    background-color: #FE0;
+    border-bottom: 3px solid #DECF02;
+    padding: 0.8em 0px;
+}
+
+#banner p a {
+    text-decoration: underline;
+    color: #BB0303;
+}
