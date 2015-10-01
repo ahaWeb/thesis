@@ -1,0 +1,20 @@
+/*--- Media Query to show only in the desktop view ---*/
+
+@media all and (min-width: $w_total) {
+
+}
+
+/*--- Media Query to show only in the larger mobile views ---*/
+@media all and (max-width: $w_total) {
+
+}
+
+/*--- Media Query to show only in the smaller tablet mobile views ---*/
+@media all and (max-width: $w_content) {
+
+}
+
+/*--- Media Query to show only in the small mobile views ---*/
+@media all and (max-width: 450px) {
+
+}
