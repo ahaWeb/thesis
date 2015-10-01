@@ -1,0 +1,5 @@
+/*--- Hide top-banner and control-menu in the smaller tablet mobile views ---*/
+
+@media all and (max-width: 450px) {
+	#banner, .menu_control {display: none;}
+}
