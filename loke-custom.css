@@ -1,0 +1,105 @@
+/* LOke style 2015 10 05 */
+
+body {
+	padding-top: 0px;
+}
+
+.header {
+	padding: 0px 26px;
+	border-bottom: 1px #DDD;
+	background-color: #111111;
+}
+
+#top_container {
+	height: 55px;
+	margin: auto;
+    max-width: 845px;
+}
+
+#logo {
+	width: 224px;
+	float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu, .menu a, .menu .sub-menu {
+    border-color: #111;
+}
+
+.menu a {
+	font-family: "Gotham A","Gotham B","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+	font-weight: bold;
+    line-height: 1em;
+    letter-spacing: 1px;
+    color: #fff;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    background-color: #111;
+	padding: 20px 16px;
+}
+
+.menu a:hover {
+    background-color: #64640b;
+	border-color: #64640b;
+	font-weight: bold;
+	color: #fff;
+}
+
+.menu .current-menu-item > a {
+    border-color: #111;
+    background-color: #111;
+}
+
+/*--- Media Query to show only in the larger mobile views ---*/
+@media all and (max-width: $w_total) {
+	#banner, .menu_control {display: none;}
+	.header {background-color: #bb0303;}
+}
+
+/*--- Media Query to show only in the smaller tablet mobile views ---*/
+@media all and (max-width: $w_content) {
+	#banner, .menu_control {display: none;}
+	.header {background-color: #bb0303;}
+}
+/*--- Media Query to show only in the smaller tablet mobile views ---*/
+@media all and (max-width: 450px) {
+	#banner, .menu_control {display: none;}
+	.header {background-color: #bb0303;}
+}
+
+#banner {
+    min-width: 1040px;
+    font-family: "Gotham A","Gotham B","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1em;
+    text-align: center;
+    color: #111;
+    background-color: #FE0;
+    border-bottom: 3px solid #DECF02;
+    padding: 0.8em 0px;
+}
+
+#banner p a {
+    text-decoration: underline;
+    color: #BB0303;
+}
+
+.columns > .content {
+    border-style: dotted;
+}
+
+.footer {
+	padding: 26px 26px;
+	border-top: 0px;
+	background-color: #111111;
+}
+
+#copyright {
+	color: #666;
+    line-height: 1em;
+    text-align: center;
+}
